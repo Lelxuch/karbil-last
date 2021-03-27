@@ -1,3 +1,68 @@
 @import "variables";
 @import "start";
 @import "header";
+
+.intro{
+    height: 100vh;
+    &::after{
+        display: block;
+        position: absolute;
+        content: "";
+        background: $primary-color;
+        border-radius: 50%;
+        width: 80rem;
+        height: 80rem;
+        transform: translate3d(-45%, -50%, 0);
+    }
+}
+
+.intro-img{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-top: 15vh;
+    img{
+        width: 100%;
+        z-index: 5;
+    }
+}
+
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 15vh;
+    span{
+        font-size: 1.8rem;
+        color: $preprimary-color;
+        margin-top: 1.5rem;
+    }
+    a{
+        background: $primary-color;
+        color: #fff;
+        font-size: 1.6rem;
+        padding: 0.5rem 1rem;
+        margin-top: 1.5rem;
+        border-radius: 0.5rem;
+    }
+}
+
+/* History */
+.history{
+    padding-top: 5rem;
+}
+
+.big-title{
+    position: relative;
+    font-size: 9rem;
+    color: #fff;
+    z-index: 5;
+}
+
+.history-content{
+    font-size: 2.8rem;
+    color: $preprimary-color;
+    margin-left: 2rem;
+}

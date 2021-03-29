@@ -1,0 +1,31 @@
+.facts{
+    padding: 8rem 0;
+    color: #fff;
+    .row:last-child{
+        margin-top: 3rem;
+    }
+}
+
+.facts-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: $primary-color;
+}
+
+.facts-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(96, 117, 220, 0.85);
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+}
+
+.facts-num{
+    font-size: 5rem;
+}
+
+.facts-content{
+    font-size: 1.2rem;
+}
